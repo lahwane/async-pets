@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>CRUDL with Async Storage</title>
+    </head>
+
+    <body>
+        <h1>CRUDL with Async Storage</h1>
+
+        <button onclick="onLoadPets()">Load pets</button>
+        <button onclick="onLoadPet()">Load a pet</button>
+        <button onclick="onRemovePet()">Remove a pet</button>
+        <button onclick="onAddPet()">Add a pet</button>
+        <button onclick="onUpdatePet()">Update a pet</button>
+
+        <section class="data-container">
+            <pre class="data"></pre>
+        </section>
+        
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>
